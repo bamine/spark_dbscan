@@ -1,3 +1,4 @@
+##This a fork from alitouka/spark_dbscan -  I just updated the depencies on spark, scalatest and scopts
 Spark DBSCAN is an implementation of the [DBSCAN clustering algorithm](http://en.wikipedia.org/wiki/DBSCAN) on top of [Apache Spark](http://spark.apache.org/) . It also includes 2 simple tools which will help you choose parameters of the DBSCAN algorithm.
 
 ![Clusters identified by the DBSCAN algorithm](https://github.com/alitouka/spark_dbscan/raw/master/wiki/img/finally_clustered.png)
