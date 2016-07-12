@@ -1,16 +1,18 @@
 name := "spark_dbscan"
 
-organization := "org.alitouka"
+organization := "com.mfglabs"
 
-version := "0.0.4"
+version := "0.0.5"
 
-libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.1.0" % "provided"
+scalaVersion in ThisBuild := "2.10.6"
 
-libraryDependencies += "org.scalatest" % "scalatest_2.10" % "2.1.3" % "test"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "1.6.2" % "provided"
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 
 libraryDependencies += "org.apache.commons" % "commons-math3" % "3.2"
 
-libraryDependencies += "com.github.scopt" %% "scopt" % "3.2.0"
+libraryDependencies += "com.github.scopt" %% "scopt" % "3.5.0"
 
 resolvers += "Akka Repository" at "http://repo.akka.io/releases/"
 
